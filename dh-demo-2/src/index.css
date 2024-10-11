@@ -1,0 +1,183 @@
+:root {
+  font-size: 16px;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --container-mw: 22.5rem;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#back-to-home {
+  display: block;
+  margin: 1rem 0;
+}
+
+.list a {
+  text-decoration: none;
+}
+
+#root {
+  display: grid;
+  place-items: center;
+  height: 100%;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.container {
+  max-width: var(--container-mw);
+}
+
+.spinner {
+  transform-origin: center;
+  animation: spinner_svv2 0.75s infinite linear;
+}
+
+@keyframes spinner_svv2 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.results-info ~ #search-form,
+.results-info {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 1.5rem 0;
+  background-color: var(--pico-background-color);
+}
+
+.result-message {
+  margin-top: 1rem;
+}
+
+.result-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+
+  .result-item {
+    list-style: none;
+  }
+}
+
+.tag {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.list {
+  padding: 0;
+  max-height: 100%;
+  overflow: auto;
+
+  li {
+    list-style: none;
+  }
+}
+
+/* Card de producto */
+
+.product-card {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 8rem 1fr;
+  gap: 1.25rem;
+  width: 100%;
+  border: 0.5px solid transparent;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    filter: brightness(1.1);
+    border: 0.5px solid #fff;
+  }
+}
+
+.pc-image_wrapper img {
+  width: 7.75rem;
+  height: 7.75rem;
+  min-width: 100%;
+  border-radius: 0.25rem;
+  object-fit: cover;
+}
+
+.pc-info_wrapper {
+  text-wrap: balance;
+  color: #fff;
+}
+
+.pc-title {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.pc-price {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.pc-description {
+  font-size: 0.625rem;
+  color: #fff;
+}
+
+/* Detalle del producto */
+
+.pdp{
+  margin-top: 2.5rem;
+}
+
+.pdp-images_wrapper {
+  display: grid;
+  grid-template-columns: 15.625rem 1fr;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.pdp-main-image {
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.pdp-images-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0;
+
+  li {
+    list-style: none;
+    margin: 0;
+  }
+}
+
+
+.pdp-info{
+  text-wrap: pretty;
+}
+
+.pdp-price{
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+.star{
+  color: #ffd500;
+}
