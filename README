@@ -4,8 +4,8 @@ Este repositorio contiene dos versiones de una aplicación frontend llamada "Baz
 
 ## Contenido del Repositorio
 
-1. **JavaScript Version**: Implementación utilizando JavaScript y las librerías fundamentales de React.
-2. **TypeScript Version**: Implementación utilizando TypeScript, con mejoras en la estructura del proyecto, incluyendo un contexto global.
+1. **Demo 1 JavaScript**: Implementación utilizando JavaScript y las librerías fundamentales de React.
+2. **Demo 2 TypeScript**: Implementación utilizando TypeScript, con mejoras en la estructura del proyecto, incluyendo un contexto global.
 
 Cada carpeta contiene un README con instrucciones específicas y detalles sobre la implementación.
 
@@ -18,7 +18,8 @@ Cada carpeta contiene un README con instrucciones específicas y detalles sobre 
 
 ### Tecnologías y Librerías
 
-- React Router para navegación
-- Fetching de datos y renderizado de listas
-- React Icons para iconografía
-- ESLint para el linting de código
+El uso de dependencias extra es mínimo. Sientete libre de agregar o modificar lo que consideres necesario.
+
+- React Router
+- React Icons
+- ESLint

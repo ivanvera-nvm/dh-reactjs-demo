@@ -11,7 +11,7 @@ export default function ProductDetail() {
 
 	const product = useLoaderData();
 
-	const { addProduct } = useCart();
+	const { addProduct } = useCart()
 
 	return (
 		<ProductLayout>
