@@ -29,4 +29,4 @@ Esta es la versión en TypeScript de la demo "Bazar Online". Esta implementació
 
 ## Despliegue
 
-La aplicación está desplegada en Vercel. Puedes acceder [aquí](https://enlace-a-la-app-ts.vercel.app).
+La aplicación está desplegada en Vercel. Puedes acceder [aquí](https://bazar-digital-ts.vercel.app).
