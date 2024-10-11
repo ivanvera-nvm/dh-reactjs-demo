@@ -27,5 +27,5 @@ Esta es la versión en JavaScript de la demo "Bazar Online". La aplicación perm
 
 ## Despliegue
 
-La aplicación está desplegada en Vercel. Puedes acceder [aquí](https://enlace-a-la-app-js.vercel.app).
+Esta versión no está desplegada en ningún servicio.
 
